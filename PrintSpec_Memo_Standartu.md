@@ -13,8 +13,9 @@
 3. Intérieur:
 - 1 fichier = max 1Gb
 - X fichiers
-   - n° + titre: **001-006_titre.pdf** 
-   > Regex = ^[\w,\s-]+\.[A-Za-z]{3}$
+   - n° + titre: *001-006_titre.pdf*
+      > Regex:
+      > ^[\w,\s-]+\.[A-Za-z]{3}$
    - pages identiques: zone de rogne/orientation/trimbox (à indiquer dans le fichier)
    - génération en pages simples (ø double-pages)
 4. Vernis sélectif (Marquage à chaud, embossage):

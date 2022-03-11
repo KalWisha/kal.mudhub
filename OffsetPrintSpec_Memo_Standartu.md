@@ -1,4 +1,34 @@
-# 1. Fichiers PDF
+Spécifications techniques des fichiers d'impression
+=============
+
+<details>
+<summary>About</summary>
+   <p>
+      
+| Author | Kal (UCDP - It-Mgt) <br /> kal@wyld.lol |
+| :--------------- |:---------------:| 
+| Creation date  | 03-11-2022 |
+| Last modifier  | 03-11-2022 | 
+| Intent | Fix \|\| Feat. <br />
+|| BREAKING CHANGE <br />
+|| chore, docs, style, refactor <br /> perf, test, others <br /> |    
+| Context | Generic || ~~Custom~~ |
+
+   </p>
+</details>
+
+| Imprimeur | [Standartų spaustuvė](https://www.standart.lt/) <br /> ___Note: this documentation is only based on print house spec___ |
+| :--------------- |:---------------:| 
+
+   ##    Sommaire
+   - [1. Fichiers](#fichiersPDF)
+   - [2. Colorimétrie](#colorimetry)
+
+<br /> <br /> <br /> <br /> 
+
+
+
+# 1. Fichiers PDF <a id="fichiersPDF"></a>
 ## 1.1. Format
 - versions 1.3 – 1.6
 ## 1.2. Norme
@@ -14,8 +44,7 @@
 - 1 fichier = max 1Gb
 - X fichiers
    - n° + titre: *001-006_titre.pdf*
-      > Regex:
-      > ^[\w,\s-]+\.[A-Za-z]{3}$
+      > Regex: ^[\w,\s-]+\.[A-Za-z]{3}$
    - pages identiques: zone de rogne/orientation/trimbox (à indiquer dans le fichier)
    - génération en pages simples (ø double-pages)
 4. Vernis sélectif (Marquage à chaud, embossage):
@@ -28,13 +57,12 @@
 - Bitmap: min 450.2540dpi
 ## 1.5. Fonts
 - Polices spéciales:
-   [✓] Incorporer toutes les polices
-   [✕] ~~Jeux partiels de polices~~
-   [✓] Si *Subset*:
-      - Config *% caractères utilisé < à...*: **0 (zéro)**
+   - [✓] Incorporer toutes les polices
+   - [✕] ~~Jeux partiels de polices~~
+   - [✓] Si *Subset*: config *% caractères utilisé < à...*: **0 (zéro)**
 - Marge: min 5mm
 
-# 2. Colorimétrie
+# 2. Colorimétrie <a id="colorimetry"></a>
 ## 2.1. Mode
 CMJN || Niveau de gris || Bichromie || Pantone
 - Check: convertir les image non conformes
